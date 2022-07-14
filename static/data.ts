@@ -1,10 +1,47 @@
-const landingPageData = {
+export const landingPageData = {
   name: "Landing Page with Components",
   fields: {
     seo: { title: "Trello Clone", description: "An awesome trello clone" },
+    navMenu: {
+      linkItems: [{
+        label: "Home",
+        url: "#hero",
+        metadata: {
+          id: 'home'
+        },
+      }, {
+        label: "Features",
+        url: "#features",
+        metadata: {
+          id: 'features'
+        },
+      }],
+      actionItems: [{
+        label: "Login",
+        url: "/login",
+        metadata: {
+          id: 'login'
+        },
+      }, {
+        label: "Sign Up",
+        url: "/signup",
+        metadata: {
+          id: 'signup'
+        },
+      }],
+      logo: {
+        url: "https://cdn.buttercms.com/UF5Qw25gSoKXBDdxXEfQ",
+        metadata: {
+          alt: "Trello Clone Logo",
+          id: 'logo'
+        },
+        label: "Trello Clone"
+      }
+    }, 
     body: [
       {
         type: "hero",
+        slug: "hero",
         fields: {
           headline: "Awesome Vue.js Forge Trello Clone",
           subheadline:
@@ -18,6 +55,7 @@ const landingPageData = {
       },
       {
         type: "features",
+        slug: "features",
         fields: {
           section_name:
             "This page is built using ButterCMS Components",
@@ -53,6 +91,7 @@ const landingPageData = {
         },
       },
       {
+        slug: 'about',
         type: "two_column_with_image",
         fields: {
           headline: "ButterCMS is your content backend",
@@ -67,6 +106,7 @@ const landingPageData = {
         },
       },
       {
+        slug: 'testimonials',
         type: f,
         fields: {
           headline: "What our customers say",
