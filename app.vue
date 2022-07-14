@@ -1,5 +1,5 @@
 <script setup>
-import './static/main.css'
+import './assets/css/main.css'
 </script>
 <template>
   <NuxtPage/>
