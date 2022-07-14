@@ -14,6 +14,10 @@ This repo includes the code at the end of Maya's talk.
 
 To see the end result of Maria's talk please [visit this repo](https://github.com/ViolanteCodes/vueforge/tree/tutorial)
 
+## Talk slides
+
+[https://slides.com/mayashavin/nuxt-landing-pages](https://slides.com/mayashavin/nuxt-landing-pages)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
