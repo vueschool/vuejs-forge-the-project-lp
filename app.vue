@@ -1,5 +1,6 @@
+<script setup>
+import './static/main.css'
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtPage/>
 </template>
