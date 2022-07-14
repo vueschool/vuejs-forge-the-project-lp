@@ -1,11 +1,11 @@
 <template>
-  <div>This is our landing page</div>
+  <LHero />
+  <LFeaturesContainer />
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import LFeaturesContainer from '~~/components/LFeaturesContainer.vue';
+import LHero from '~~/components/LHero.vue';
 </script>
 
 <style>

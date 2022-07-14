@@ -17,12 +17,6 @@ export const landingPageData = {
         },
       }],
       actionItems: [{
-        label: "Login",
-        url: "/login",
-        metadata: {
-          id: 'login'
-        },
-      }, {
         label: "Sign Up",
         url: "/signup",
         metadata: {
@@ -49,7 +43,7 @@ export const landingPageData = {
           image:
             "https:\u002F\u002Fcdn.buttercms.com\u002FYynk1SrcQ66EBtXR64wA",
           button_label: "Sign Up Now",
-          button_url: e,
+          button_url: "/signup",
           scroll_anchor_id: "home",
         },
       },
@@ -101,18 +95,18 @@ export const landingPageData = {
             "https:\u002F\u002Fcdn.buttercms.com\u002FzUXJ8EarSlaCxP0MS1su",
           image_position: "left",
           button_label: "Update this Page in Butter",
-          button_url: e,
+          button_url: "https:\u002F\u002Fbuttercms.com\u002Fpages\u002Fabout",
           scroll_anchor_id: "about",
         },
       },
       {
         slug: 'testimonials',
-        type: f,
+        type: "testimonials",
         fields: {
           headline: "What our customers say",
           subheadline:
             "Vue.js Forge Attendees think this is Awesome!",
-          scroll_anchor_id: f,
+          scroll_anchor_id: "testimonials",
           testimonial: [
             {
               quote: "Super Flexible CMS Solution",

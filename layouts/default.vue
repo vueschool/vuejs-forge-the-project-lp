@@ -1,3 +1,8 @@
 <template>
-  <div>Layout</div>
+  <LHeader>
+    <slot />
+  </LHeader>
 </template>
+<script setup>
+import LHeader from '~~/components/LHeader.vue'
+</script>

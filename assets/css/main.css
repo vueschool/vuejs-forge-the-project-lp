@@ -6,8 +6,8 @@ html{
   scroll-behavior: smooth;
 }
 
-/* @layer base {
+@layer base {
   body {
     @apply bg-primary-500;
   }
-} */
+}

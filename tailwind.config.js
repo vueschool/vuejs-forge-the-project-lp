@@ -29,7 +29,32 @@ module.exports = {
           padding: "16px",
       },
       extend: {
-          colors: {},
+          colors: {
+            primary: {
+              50: '#F4F7FC',
+              100: '#E9EEFA',
+              200: '#C8D5F2',
+              300: '#A7BBEB',
+              400: '#6688DB',
+              500: '#2455CC',
+              600: '#204DB8',
+              700: '#16337A',
+              800: '#10265C',
+              900: '#0B1A3D',
+            },
+            secondary: {
+              50: '#FFFFFF',
+              100: '#FEFEFF',
+              200: '#FEFEFE',
+              300: '#FDFDFD',
+              400: '#FBFBFC',
+              500: '#F9F9FA',
+              600: '#E0E0E1',
+              700: '#959596',
+              800: '#707071',
+              900: '#4B4B4B',
+              },
+          },
           boxShadow: {
               input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
               pricing: "0px 39px 23px -27px rgba(0, 0, 0, 0.04)",
